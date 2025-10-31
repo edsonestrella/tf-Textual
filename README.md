@@ -127,4 +127,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Created with ❤️ by the tf-textual team**
 
 *This tool is not affiliated with HashiCorp or the Terraform project.*
-```
