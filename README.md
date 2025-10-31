@@ -79,7 +79,7 @@ tf-textual --dir /path/to/terraform/project
 ### Setup
 
 ```bash
-git clone https://github.com/your-username/tf-textual
+git clone https://github.com/edsonestrella/tf-Textual
 cd tf-textual
 pip install -e ".[dev]"
 ```
@@ -110,7 +110,7 @@ We love contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details
 
 ## 🐛 Issues
 
-Found a bug? Please [create an issue](https://github.com/your-username/tf-textual/issues).
+Found a bug? Please [create an issue](https://github.com/edsonestrella/tf-Textual/issues).
 
 ## 📄 License
 

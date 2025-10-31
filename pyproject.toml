@@ -50,17 +50,14 @@ test = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/your-username/tf-textual"
-Documentation = "https://github.com/your-username/tf-textual#readme"
-Repository = "https://github.com/your-username/tf-textual"
-Issues = "https://github.com/your-username/tf-textual/issues"
-Changelog = "https://github.com/your-username/tf-textual/releases"
+Homepage = "https://github.com/edsonestrella/tf-Textual"
+Documentation = "https://github.com/edsonestrella/tf-Textual#readme"
+Repository = "https://github.com/edsonestrella/tf-Textual"
+Issues = "https://github.com/edsonestrella/tf-Textual/issues"
+Changelog = "https://github.com/edsonestrella/tf-Textual/releases"
 
 [project.scripts]
 tf-textual = "tf_textual.__main__:main"
-
-[project.entry-points."textual"]
-devtools = "tf_textual.devtools:run_devtools"
 
 [tool.hatch.version]
 path = "src/tf_textual/__init__.py"
@@ -141,6 +138,6 @@ exclude_lines = [
     "raise NotImplementedError",
     "if 0:",
     "if __name__ == .__main__.:",
-    "class .*\\bProtocol\\b":,
-    "@(abc\\.)?abstractmethod",
+    "class .*\bProtocol\b":,
+    "@(abc\.)?abstractmethod",
 ]
